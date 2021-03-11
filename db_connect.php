@@ -49,6 +49,21 @@ function Consulta($consulta, $fila, $dato){
     fwrite($logFile, "\n".date("d/m/Y H:i:s")." Se ha echo una consulta a la base de datos: ". $consulta." Fila: ".$fila. " Dato: ".$dato) or die(" Error escribiendo en el archivo");
     
 }
+//CONSULTAS DE MYSQL RESUMIDAS
+
+function SELECT($table, $condition){
+    $conexion = Database_Connection("localhost","root","","tienda");
+    $result = mysqli_query($conexion, "SELECT * FROM ".$table." ".$condition);
+
+    return $result;
+}
+
+function INSERT($table, $valuesToAdd){
+    $conexion = Database_Connection("localhost","root","","tienda");
+    $result = mysqli_query($conexion, "INSERT INTO ".$table." ".$valuesToAdd);
+
+    return $result;
+}
 
 
 
