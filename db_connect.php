@@ -1,6 +1,6 @@
 <?php
     #Logfile (Genera un archivo de registro de los eventos ocurridos durante la ejecución del programa.)
-    global $logFile;
+    $logFile;
     $logFile = fopen("log.txt", 'a') or die(" Ha ocurrido un error inexplicable al intentar crear el archivo log.txt");
     fwrite($logFile, "\n".date("d/m/Y H:i:s")." Se ha ejecutado el programa") or die(" Error escribiendo en el archivo");
 
