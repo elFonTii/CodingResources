@@ -1,6 +1,6 @@
-<?php
+ <?php
     #Logfile (Genera un archivo de registro de los eventos ocurridos durante la ejecución del programa.)
-    $logFile;
+    global $logFile;
     $logFile = fopen("log.txt", 'a') or die(" Ha ocurrido un error inexplicable al intentar crear el archivo log.txt");
     fwrite($logFile, "\n".date("d/m/Y H:i:s")." Se ha ejecutado el programa") or die(" Error escribiendo en el archivo");
 
@@ -9,8 +9,7 @@
 //Llamado a las funciones
 
 #Database_Connection("localhost","root","","tienda");
-#Consulta("SELECT * FROM FABRICANTES",0,"Nombre");
-
+Consulta("SELECT * FROM FABRICANTES",0,"Nombre");
 
 
 
@@ -45,6 +44,8 @@ function Consulta($consulta, $fila, $dato){
     mysqli_data_seek ($result, $fila);
     $extraido= mysqli_fetch_array($result);
     echo($extraido[$dato]);
+    
+    
     $logFile = fopen("log.txt", 'a') or die(" Ha ocurrido un error inexplicable al intentar crear el archivo log.txt");
     fwrite($logFile, "\n".date("d/m/Y H:i:s")." Se ha echo una consulta a la base de datos: ". $consulta." Fila: ".$fila. " Dato: ".$dato) or die(" Error escribiendo en el archivo");
     
@@ -64,6 +65,13 @@ function INSERT($table, $valuesToAdd){
 
     return $result;
 }
+
+function ecuaciones($numero1,$ecuacion,$numero2){
+    $valor=$numero1+$numero2;
+    print $valor;
+
+}
+
 
 
 

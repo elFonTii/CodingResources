@@ -1,0 +1,21 @@
+
+10/03/2021 17:21:00 Se ha ejecutado el programa
+10/03/2021 17:21:00 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+10/03/2021 18:33:34 Se ha ejecutado el programa
+10/03/2021 19:08:03 Se ha ejecutado el programa
+10/03/2021 19:08:03 Se ha echo una consulta a la base de datos:CREATE TABLE prueba1
+10/03/2021 19:09:39 Se ha ejecutado el programa
+10/03/2021 19:09:39 Se ha echo una consulta a la base de datos:CREATE TABLE prueba1
+11/03/2021 04:25:43 Se ha ejecutado el programa
+11/03/2021 04:25:43 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+11/03/2021 04:30:41 Se ha ejecutado el programa
+11/03/2021 04:30:41 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+11/03/2021 04:30:41 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+11/03/2021 04:31:53 Se ha ejecutado el programa
+11/03/2021 04:31:53 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+11/03/2021 04:38:38 Se ha ejecutado el programa
+11/03/2021 04:38:38 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+11/03/2021 04:38:54 Se ha ejecutado el programa
+11/03/2021 04:38:54 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
+12/03/2021 18:09:59 Se ha ejecutado el programa
+12/03/2021 18:09:59 Se ha echo una consulta a la base de datos: SELECT * FROM FABRICANTES Fila: 0 Dato: Nombre
